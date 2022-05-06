@@ -4,6 +4,7 @@ from Listas.list_merge import merge
 
 import brute_force
 from brute_force.sum_of_first_n_numbers import sum_first_numbers
+from brute_force.pin_unlock import unlock
 
 print("----------------------------| ALGORITHM # 1: LARGEST NUMBER IN A LIST |----------------------------  ")
 print("")
@@ -32,3 +33,11 @@ print("Numero ingresado: ",n)
 sum_first_numbers(n)
 
 print("")
+
+print("---------------------------| ALGORITHM # 4: 4-DIGIT PIN UNLOCK |----------------------------------- ")
+print("")
+
+print(unlock("2412"))
+
+print("")
+
