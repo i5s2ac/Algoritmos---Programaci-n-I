@@ -14,6 +14,10 @@ from Recursion.Nth_fibonacci_number import fibonacci_sequence
 from Recursion.Factorial_of_n  import factorial
 from Recursion.Countdown import cuenta_atras
 
+import Sorting
+from Sorting.bubble_sort import bubble_sort
+
+
 print("----------------------------| ALGORITHM # 1: LARGEST NUMBER IN A LIST |----------------------------  ")
 print("")
 
@@ -74,5 +78,15 @@ print("---------------------------| ALGORITHM # 8: COUNTDOWN |------------------
 print("")
 
 print(cuenta_atras(5))
+
+print("")
+
+print("---------------------------| ALGORITHM # 9: BUBBLE SORT |-------------------------------------------")
+print("")
+
+lista=[-2,45,0,11,-9]
+print("Lista desordenada: ", lista)
+sorted_list=bubble_sort(lista)
+print("Lista ordenada: ",sorted_list)
 
 print("")
