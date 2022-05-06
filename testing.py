@@ -5,6 +5,7 @@ from Listas.list_merge import merge
 import brute_force
 from brute_force.sum_of_first_n_numbers import sum_first_numbers
 from brute_force.pin_unlock import unlock
+from brute_force.divisor_of_n import divisors
 
 import Recursion
 import sys
@@ -24,6 +25,7 @@ import Searching
 from Searching.linear_search import linear_search
 from Searching.Binary_Search import binary
 
+print("")
 
 print("----------------------------| ALGORITHM # 1: LARGEST NUMBER IN A LIST |----------------------------  ")
 print("")
@@ -144,3 +146,12 @@ else:
 print(respuesta)
 
 print("")
+
+print("---------------------------| ALGORITHM # 15: DIVISORS OF N |----------------------------------------")
+print("")
+
+n = 8937222
+result = divisors(n)
+print("N: " + str(n) + " Divisors: " + str(result) )
+
+print("")     
