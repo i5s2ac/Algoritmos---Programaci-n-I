@@ -6,11 +6,11 @@ import brute_force
 from brute_force.sum_of_first_n_numbers import sum_first_numbers
 from brute_force.pin_unlock import unlock
 
-
 import Recursion
 import sys
 sys.setrecursionlimit(2000)
 from Recursion.sum_of_first_n_numbers_recursive import sum_of_n
+from Recursion.Nth_fibonacci_number import fibonacci_sequence
 
 print("----------------------------| ALGORITHM # 1: LARGEST NUMBER IN A LIST |----------------------------  ")
 print("")
@@ -51,5 +51,12 @@ print("---------------------------| ALGORITHM # 5: SUM OF FIRST N NUMBERS (RECUR
 print("")
 
 print("Sum of n:",sum_of_n(1000))
+
+print("")
+
+print("---------------------------| ALGORITHM # 6: NTH FIBONACCI NUMBER |--------------------------------- ")
+print("")
+
+print("Fibonacci Number:",fibonacci_sequence(32))
 
 print("")
