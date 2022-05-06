@@ -18,6 +18,7 @@ import Sorting
 from Sorting.bubble_sort import bubble_sort
 from Sorting.selection_sort import selection_sort
 from Sorting.bubble_sort_optimized import bubble_sort_optimized
+from Sorting.insertion_sort import insertion_sort
 
 
 print("----------------------------| ALGORITHM # 1: LARGEST NUMBER IN A LIST |----------------------------  ")
@@ -109,3 +110,11 @@ print("")
 print(bubble_sort_optimized(arr))
 
 print("")
+
+print("---------------------------| ALGORITHM # 12: INSERTION SORT |---------------------------------------")
+print("")
+
+print(insertion_sort(arr))
+
+print("")
+
