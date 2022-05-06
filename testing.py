@@ -22,6 +22,7 @@ from Sorting.insertion_sort import insertion_sort
 
 import Searching
 from Searching.linear_search import linear_search
+from Searching.Binary_Search import binary
 
 
 print("----------------------------| ALGORITHM # 1: LARGEST NUMBER IN A LIST |----------------------------  ")
@@ -132,3 +133,14 @@ print(ans)
 
 print("")
 
+print("---------------------------| ALGORITHM # 14: BINARY SEARCH |---------------------------------------")
+print("")
+
+if binary(arr,4) == -1:
+    respuesta = "El número no se encuentra en la lista"
+else:
+    respuesta = "El número se encuentra en el indice:",binary(arr,4)
+
+print(respuesta)
+
+print("")
