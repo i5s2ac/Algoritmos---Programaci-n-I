@@ -16,6 +16,7 @@ from Recursion.Countdown import cuenta_atras
 
 import Sorting
 from Sorting.bubble_sort import bubble_sort
+from Sorting.selection_sort import selection_sort
 
 
 print("----------------------------| ALGORITHM # 1: LARGEST NUMBER IN A LIST |----------------------------  ")
@@ -88,5 +89,15 @@ lista=[-2,45,0,11,-9]
 print("Lista desordenada: ", lista)
 sorted_list=bubble_sort(lista)
 print("Lista ordenada: ",sorted_list)
+
+print("")
+
+arr = [9, 5, 4, 7, 10, 14, 15, 13, 8, 2]
+arr2 = [8, 5, 7, 8, 9, 10, 5 ,7, 3, 2]
+
+print("---------------------------| ALGORITHM # 10: SELECTION SORT |---------------------------------------")
+print("")
+
+print(selection_sort(arr))
 
 print("")
