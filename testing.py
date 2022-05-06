@@ -25,7 +25,7 @@ import Searching
 from Searching.linear_search import linear_search
 from Searching.Binary_Search import binary
 
-print("")
+print("¡Bienvenidos a todos a los algoritmos realizados en programación I! Este es el modulo de testing, sientanse en confianza de correrlo!")
 
 print("----------------------------| ALGORITHM # 1: LARGEST NUMBER IN A LIST |----------------------------  ")
 print("")
@@ -155,3 +155,4 @@ result = divisors(n)
 print("N: " + str(n) + " Divisors: " + str(result) )
 
 print("")     
+
