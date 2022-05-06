@@ -12,6 +12,7 @@ sys.setrecursionlimit(2000)
 from Recursion.sum_of_first_n_numbers_recursive import sum_of_n
 from Recursion.Nth_fibonacci_number import fibonacci_sequence
 from Recursion.Factorial_of_n  import factorial
+from Recursion.Countdown import cuenta_atras
 
 print("----------------------------| ALGORITHM # 1: LARGEST NUMBER IN A LIST |----------------------------  ")
 print("")
@@ -66,5 +67,12 @@ print("---------------------------| ALGORITHM # 7: FACTORIAL OF N |-------------
 print("")
 
 print("El factorial es:",factorial(5))
+
+print("")
+
+print("---------------------------| ALGORITHM # 8: COUNTDOWN |------------------------------------------- ")
+print("")
+
+print(cuenta_atras(5))
 
 print("")
