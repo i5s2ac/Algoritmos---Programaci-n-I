@@ -20,6 +20,9 @@ from Sorting.selection_sort import selection_sort
 from Sorting.bubble_sort_optimized import bubble_sort_optimized
 from Sorting.insertion_sort import insertion_sort
 
+import Searching
+from Searching.linear_search import linear_search
+
 
 print("----------------------------| ALGORITHM # 1: LARGEST NUMBER IN A LIST |----------------------------  ")
 print("")
@@ -115,6 +118,17 @@ print("---------------------------| ALGORITHM # 12: INSERTION SORT |------------
 print("")
 
 print(insertion_sort(arr))
+
+print("")
+
+print("---------------------------| ALGORITHM # 13: LINEAR SEARCH |----------------------------------------")
+print("")
+
+if linear_search(arr2,4) == -1:
+    ans = "El número no se encuentra en la lista"
+else:
+    ans = "El número se encuentra en el indice: ",linear_search(arr2,4)
+print(ans)
 
 print("")
 
